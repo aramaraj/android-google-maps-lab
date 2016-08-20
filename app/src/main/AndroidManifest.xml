@@ -4,9 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="18" />
+
 
     <permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
     <permission android:name="android.permission.ACCESS_FINE_LOCATION" android:protectionLevel="dangerous"/>
@@ -45,7 +43,7 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="YOUR-API-KEY-HERE" />
+            android:value="AIzaSyDB7hIC_zPkQUvSerbYB6mC35E2XQIaKN8" />
 
         <meta-data
             android:name="com.google.android.gms.version"
